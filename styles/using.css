@@ -1,0 +1,145 @@
+
+body{
+   max-width: 1440px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+
+
+
+main{
+   margin-top: 140px;
+}
+
+.main__section{
+   max-width: 1200px;
+   width: 100%;
+   margin: 0px auto;
+}
+
+.title{
+   max-width: 326px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 40px;
+}
+
+.title__box{
+   width: 100px;
+   height: 8px;
+   background-color: black;
+}
+
+.title__header{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   letter-spacing: 0.04em;
+   color: #000000;
+}
+
+.transform{
+   max-width: 1200px;
+   width: 100%;
+   margin: 0px auto;
+   border-top: 1px solid #E6E6E6;
+   border-bottom: 1px solid #E6E6E6;
+}
+
+.transform__list{
+   display: grid;
+   grid-template-columns: 270px 270px 270px 270px;
+   grid-template-rows: 180px 180px;
+   justify-content: center;
+   grid-gap: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.transform__item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.transform__item i{
+   font-size: 40px;
+}
+
+.transform__list a{
+   text-decoration: none;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 270px;
+   height: 180px;
+   background-color: #E6E6E6;
+   border-radius: 8px;
+}
+
+ .icon-facebook-logo-black{
+   width: 200px;
+   height: 40px;
+}
+
+.icon-pinterest-logo-black{
+   width: 200px;
+   height: 48px;
+}
+
+ .icon-instagram-logo-black{
+   width: 200px;
+   height: 57px;
+   display: flex;
+   align-items: center;
+}
+
+.icon-saleforse-logo-black{
+   width: 200px;
+   height: 140px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 100px;
+}
+
+.icon-shopify-logo-black{
+   width: 200px;
+   height: 57px;
+
+}
+
+.icon-skype-logo-black{
+   width: 200px;
+   height: 62px;
+}
+
+.icon-soundcloud-logo-black{
+   width: 200px;
+   height: 114px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.transform__list a:hover .transform__item i{
+   transform: rotateX(180deg);
+   transition: all .3s ease-in
+}
+
+.transform__list a:hover{
+   background-color: #000000;
+   color: white;
+   transform: rotateX(180deg);
+   transition: all .3s ease-in
+}
